@@ -18,7 +18,7 @@
   --f:Arial,"Helvetica Neue",Helvetica,sans-serif;
   color-scheme:light;
 }
-*{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}*{box-sizing:border-box;margin:0;padding:0}
 body{font-family:var(--f);background:var(--bg);color:var(--ink);min-height:100vh}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--ink)}
 .header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--ink);color:#fff;padding-block:14px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
